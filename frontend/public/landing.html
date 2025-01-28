@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Educativa</title>
+  <link rel="stylesheet" href="../src/css/landing-styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white py-6">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <div class="text-2xl font-bold">
+        <img class="logo" src="../src/assets/landing/logo.png" alt="">
+    </div>
+      <nav class="space-x-4">
+        <a href="#" class="hover:text-blue-200">Inicio</a>
+        <a href="#" class="hover:text-blue-200">Cómo funciona</a>
+        <a href="#" class="hover:text-blue-200">Planes</a>
+        <a href="#" class="hover:text-blue-200">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-20">
+    <!-- <div class="container mx-auto px-4 text-center">
+      <h1 class="text-5xl font-bold mb-4">Aprende a solucionar problemas, de forma sencilla y didactica.</h1>
+      <p class="text-xl mb-8">Comprende y domina leyes y conceptos sobre matemáticas, programación, estadísticas, quimica, fisica y más con ejercicios prácticos y visuales.</p>
+      <a href="#" class="bg-orange-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-orange-600">¡Empieza ahora!</a>
+    </div> -->
+
+    <div class="container mx-auto px-4 text-center">
+        <h1 class="text-5xl font-bold mb-4">Aprende lógica resolviendo problemas de <span id="typewriter" class="text-orange-500"></span></h1>
+        <p class="text-xl mb-8">Domina matemáticas, programación, estadísticas y más con ejercicios prácticos y visuales.</p>
+        <a href="#" class="bg-orange-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-orange-600">¡Empieza ahora!</a>
+      </div>
+  </section>
+
+
+
+
+  <!-- Sección 1: ¿Qué ofrece la app? -->
+  <section class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">¿Qué ofrece la app?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="text-4xl mb-4">📊</div>
+          <h3 class="text-xl font-semibold mb-2">Ejercicios de lógica</h3>
+          <p class="text-gray-600">Resuelve problemas de programación, matemáticas, estadísticas y más.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl mb-4">🎨</div>
+          <h3 class="text-xl font-semibold mb-2">Aprendizaje visual</h3>
+          <p class="text-gray-600">Gráficos y animaciones para simplificar conceptos complejos.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl mb-4">🏆</div>
+          <h3 class="text-xl font-semibold mb-2">Gamificación</h3>
+          <p class="text-gray-600">Recompensas y progreso para mantenerte motivado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 2: Beneficios clave -->
+  <section class="bg-gray-100 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">¿Por qué elegirnos?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="text-4xl mb-4">👨‍🎓</div>
+          <h3 class="text-xl font-semibold mb-2">Para todos los niveles</h3>
+          <p class="text-gray-600">Desde principiantes hasta avanzados.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl mb-4">💡</div>
+          <h3 class="text-xl font-semibold mb-2">Conceptos claros</h3>
+          <p class="text-gray-600">Explicaciones sencillas y prácticas.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl mb-4">📱</div>
+          <h3 class="text-xl font-semibold mb-2">Acceso en cualquier dispositivo</h3>
+          <p class="text-gray-600">Aprende desde tu celular, tablet o computadora.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl mb-4">⏱️</div>
+          <h3 class="text-xl font-semibold mb-2">A tu ritmo</h3>
+          <p class="text-gray-600">Sin presión, avanza cuando quieras.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 3: ¿Cómo funciona? -->
+  <section class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">¿Cómo funciona?</h2>
+      <div class="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
+        <div class="text-center">
+          <div class="text-4xl mb-4">1</div>
+          <h3 class="text-xl font-semibold mb-2">Regístrate</h3>
+          <p class="text-gray-600">Crea una cuenta en minutos.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl mb-4">2</div>
+          <h3 class="text-xl font-semibold mb-2">Elige tu área</h3>
+          <p class="text-gray-600">Selecciona lo que quieres aprender.</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl mb-4">3</div>
+          <h3 class="text-xl font-semibold mb-2">Resuelve ejercicios</h3>
+          <p class="text-gray-600">Practica con problemas interactivos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2023 Nombre de la App. Todos los derechos reservados.</p>
+      <div class="mt-4 space-x-4">
+        <a href="#" class="hover:text-gray-400">Política de privacidad</a>
+        <a href="#" class="hover:text-gray-400">Términos de uso</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="../src/js/effects.js"></script>
+
+</body>
+</html>
