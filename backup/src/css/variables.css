@@ -1,0 +1,64 @@
+:root{
+    /* Colores principales */
+    --primary-color: #0F172A;
+    --secondary-color:  #10B984;
+    --accent-color: #38BDF8;
+    --text-color: #F8FAFC;
+    --bg-color: #1E293B;
+}
+
+
+
+/* 
+OPCION 1 -- 
+#0F172A (Azul oscuro, fondo principal)
+#1E293B (Azul grisáceo, secundario)
+#10B981 (Verde neón, resalta texto o botones)
+#38BDF8 (Azul neón, para acentos)
+#FACC15 (Amarillo brillante, para alertas o detalles)
+
+OPCION 2 --
+#1E3A8A (Azul profundo, fondo principal)
+#64748B (Gris azulado, textos secundarios)
+#0EA5E9 (Azul claro, acentos como botones o enlaces)
+#F8FAFC (Blanco casi puro, textos principales)
+#D97706 (Naranja oscuro, para destacar elementos clave)
+
+OPCION 3 --
+#F43F5E (Rojo vibrante, resalta botones y llamadas a la acción)
+#6366F1 (Azul púrpura, fondo o acentos)
+#22C55E (Verde brillante, para notificaciones o logros)
+#EAB308 (Amarillo oro, para detalles llamativos)
+#F1F5F9 (Gris claro, fondo neutro)
+
+
+Tipografias recomendadas --
+
+Fira Code
+JetBrains Mono
+Source Code Pro
+
+Inter
+Poppins
+Roboto
+
+Montserrat
+Nunito
+Bebas Neue
+
+
+🚀 ¿Cómo combinar todo esto?
+🔹 Opción 1 - Estilo Hacker/Programación
+Paleta: Azul oscuro + Verde neón
+Tipografía: "JetBrains Mono" para código + "Inter" para el resto
+🔹 Opción 2 - Minimalista y Profesional
+Paleta: Azul + Gris claro
+Tipografía: "Roboto" o "Poppins"
+🔹 Opción 3 - Vibrante y Energético
+Paleta: Rojo + Azul púrpura
+Tipografía: "Montserrat" + "Fira Code"
+
+
+
+
+*/
