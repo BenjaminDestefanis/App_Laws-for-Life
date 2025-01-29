@@ -1,6 +1,7 @@
 import React from "react";
 import Greeting from "./components/Greeting";
 import LandingPage from "./pages/Landing";
+import  TypingEffect from "./components/Header";
 import  "./App.css"
 
 function App(): JSX.Element {
@@ -9,13 +10,14 @@ function App(): JSX.Element {
       <h1>Aprende coneptos rersolviendo problemas cotidianos utilizando </h1>
       <p>Domina matemáticas, programación, estadísticas y más con ejercicios prácticos y visuales.</p>
 
-      <Greeting name="Benjamin" />
+      {/* <Greeting name="Benjamin" /> */}
 
 
 
 
       {/* LANDING */}
 
+    <TypingEffect />
     <LandingPage />
     </div>
   );
