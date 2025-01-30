@@ -3,6 +3,7 @@ import { AppBar, Toolbar, Button, Container } from '@mui/material';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 /* import App from '../App'; */
 import TrainingSeccion from '../pages/TrainingSeccion';
+import Home from './Home';
 
 
 // Tipado de rutas
@@ -15,6 +16,7 @@ type RouteConfig = {
 const routes: RouteConfig[] = [
   /* { path: '/', element: <App /> }, */
   { path: '/training', element: <TrainingSeccion /> }, // Nueva ruta
+  { path: '/', element: <Home />}
 ];
 
 const Navbar: React.FC = () => {
