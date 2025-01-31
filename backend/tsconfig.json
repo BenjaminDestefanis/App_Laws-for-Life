@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es6",                         // Versión de JavaScript de salida (es6 en este caso)
+      "module": "commonjs",                    // Módulo CommonJS, necesario para Node.js
+      "moduleResolution": "node",              // Resolución de módulos como en Node.js
+      "outDir": "./dist",                      // Carpeta donde se generarán los archivos compilados
+      "rootDir": "./src",                      // Carpeta raíz del código fuente (ajusta según tu proyecto)
+      "esModuleInterop": true,                 // Para importar módulos de forma compatible
+      "strict": true,                          // Activa el modo estricto de TypeScript
+      "types": ["node", "jest"],               // Agrega los tipos de Node.js y Jest para los tests
+      "skipLibCheck": true                     // Omite la verificación de tipos en las dependencias
+    },
+    "include": [
+      "backend/**/*",                              // Incluye todos los archivos de la carpeta src
+      "config/db/Ejercicios-Tests/Matematicas/Ejercicios-Basicos/Nivel1/**/*.test.ts" // Incluye los tests
+    ],
+    "exclude": [
+      "node_modules"                           // Excluye la carpeta node_modules
+    ]
+  }
+  
